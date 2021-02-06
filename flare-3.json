@@ -1,0 +1,846 @@
+{
+    "name": "flare",
+    "parent_id": null,
+    "parent": null,
+    "children": [{
+        "name": "Display",
+        "label": 11951,
+        "parent_id": "flare",
+        "children": [{
+            "name": "NY Times",
+            "label": 4072,
+            "parent_id": "Display",
+            "children": [{
+                "name": "No Promo",
+                "value": 1810,
+                "label": 1810,
+                "parent_id": "DisplayNY Times"
+            }, {
+                "name": "Save 25%",
+                "value": 2262,
+                "label": 2262,
+                "parent_id": "DisplayNY Times"
+            }]
+        }, {
+            "name": "WSJ",
+            "label": 5730,
+            "parent_id": "Display",
+            "children": [{
+                "name": "No Promo",
+                "value": 2714,
+                "label": 2714,
+                "parent_id": "DisplayWSJ"
+            }, {
+                "name": "Save 20%",
+                "value": 3016,
+                "label": 3016,
+                "parent_id": "DisplayWSJ"
+            }]
+        }, {
+            "name": "Washington Post",
+            "label": 2149,
+            "parent_id": "Display",
+            "children": [{
+                "name": "No Promo",
+                "value": 1018,
+                "label": 1018,
+                "parent_id": "DisplayWashington Post"
+            }, {
+                "name": "Save 10%",
+                "value": 1131,
+                "label": 1131,
+                "parent_id": "DisplayWashington Post"
+            }]
+        }]
+    }, {
+        "name": "Email",
+        "label": 7495,
+        "parent_id": "flare",
+        "children": [{
+            "name": "Newsletter",
+            "label": 3152,
+            "parent_id": "Email",
+            "children": [{
+                "name": "No Promo",
+                "value": 1493,
+                "label": 1493,
+                "parent_id": "EmailNewsletter"
+            }, {
+                "name": "Save 10%",
+                "value": 1659,
+                "label": 1659,
+                "parent_id": "EmailNewsletter"
+            }]
+        }, {
+            "name": "Welcome email",
+            "label": 4343,
+            "parent_id": "Email",
+            "children": [{
+                "name": "No Promo",
+                "value": 1930,
+                "label": 1930,
+                "parent_id": "EmailWelcome email"
+            }, {
+                "name": "Save 20%",
+                "value": 2413,
+                "label": 2413,
+                "parent_id": "EmailWelcome email"
+            }]
+        }]
+    }, {
+        "name": "OTT",
+        "label": 67920,
+        "parent_id": "flare",
+        "children": [{
+            "name": "Hulu",
+            "label": 10100,
+            "parent_id": "OTT",
+            "children": [{
+                "name": "No Promo",
+                "label": 4784,
+                "parent_id": "OTTHulu",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 4784,
+                    "label": 4784,
+                    "parent_id": "OTTHuluNo Promo"
+                }]
+            }, {
+                "name": "Save 10%",
+                "label": 5316,
+                "parent_id": "OTTHulu",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 5316,
+                    "label": 5316,
+                    "parent_id": "OTTHuluSave 10%"
+                }]
+            }]
+        }, {
+            "name": "Sling",
+            "label": 39039,
+            "parent_id": "OTT",
+            "children": [{
+                "name": "No Promo",
+                "label": 18492,
+                "parent_id": "OTTSling",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 18492,
+                    "label": 18492,
+                    "parent_id": "OTTSlingNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 20547,
+                "parent_id": "OTTSling",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 20547,
+                    "label": 20547,
+                    "parent_id": "OTTSlingSave 20%"
+                }]
+            }]
+        }, {
+            "name": "TubiTV",
+            "label": 18781,
+            "parent_id": "OTT",
+            "children": [{
+                "name": "No Promo",
+                "label": 8347,
+                "parent_id": "OTTTubiTV",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 8347,
+                    "label": 8347,
+                    "parent_id": "OTTTubiTVNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 10434,
+                "parent_id": "OTTTubiTV",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 10434,
+                    "label": 10434,
+                    "parent_id": "OTTTubiTVSave 20%"
+                }]
+            }]
+        }]
+    }, {
+        "name": "Online Radio",
+        "label": 5964,
+        "parent_id": "flare",
+        "children": [{
+            "name": "Pandora",
+            "label": 2436,
+            "parent_id": "Online Radio",
+            "children": [{
+                "name": "No Promo",
+                "value": 1154,
+                "label": 1154,
+                "parent_id": "Online RadioPandora"
+            }, {
+                "name": "Save 20%",
+                "value": 1282,
+                "label": 1282,
+                "parent_id": "Online RadioPandora"
+            }]
+        }, {
+            "name": "Spotify",
+            "label": 3528,
+            "parent_id": "Online Radio",
+            "children": [{
+                "name": "No Promo",
+                "value": 1568,
+                "label": 1568,
+                "parent_id": "Online RadioSpotify"
+            }, {
+                "name": "Save 20%",
+                "value": 1960,
+                "label": 1960,
+                "parent_id": "Online RadioSpotify"
+            }]
+        }]
+    }, {
+        "name": "Paid Search",
+        "label": 24924,
+        "parent_id": "flare",
+        "children": [{
+            "name": "Bing",
+            "label": 6447,
+            "parent_id": "Paid Search",
+            "children": [{
+                "name": "No Promo",
+                "value": 3054,
+                "label": 3054,
+                "parent_id": "Paid SearchBing"
+            }, {
+                "name": "Save 20%",
+                "value": 3393,
+                "label": 3393,
+                "parent_id": "Paid SearchBing"
+            }]
+        }, {
+            "name": "DuckDuckGo",
+            "label": 1647,
+            "parent_id": "Paid Search",
+            "children": [{
+                "name": "No Promo",
+                "value": 780,
+                "label": 780,
+                "parent_id": "Paid SearchDuckDuckGo"
+            }, {
+                "name": "Save 10%",
+                "value": 867,
+                "label": 867,
+                "parent_id": "Paid SearchDuckDuckGo"
+            }]
+        }, {
+            "name": "Google",
+            "label": 13775,
+            "parent_id": "Paid Search",
+            "children": [{
+                "name": "No Promo",
+                "value": 6122,
+                "label": 6122,
+                "parent_id": "Paid SearchGoogle"
+            }, {
+                "name": "Save 20%",
+                "value": 7653,
+                "label": 7653,
+                "parent_id": "Paid SearchGoogle"
+            }]
+        }, {
+            "name": "Yahoo",
+            "label": 3055,
+            "parent_id": "Paid Search",
+            "children": [{
+                "name": "No Promo",
+                "value": 1358,
+                "label": 1358,
+                "parent_id": "Paid SearchYahoo"
+            }, {
+                "name": "Save 25%",
+                "value": 1697,
+                "label": 1697,
+                "parent_id": "Paid SearchYahoo"
+            }]
+        }]
+    }, {
+        "name": "Podcast",
+        "label": 26447,
+        "parent_id": "flare",
+        "children": [{
+            "name": "Dan Carlin’s Hardcore History",
+            "label": 1719,
+            "parent_id": "Podcast",
+            "children": [{
+                "name": "No Promo",
+                "label": 814,
+                "parent_id": "PodcastDan Carlin’s Hardcore History",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 814,
+                    "label": 814,
+                    "parent_id": "PodcastDan Carlin’s Hardcore HistoryNo Promo"
+                }]
+            }, {
+                "name": "Save 10%",
+                "label": 905,
+                "parent_id": "PodcastDan Carlin’s Hardcore History",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 905,
+                    "label": 905,
+                    "parent_id": "PodcastDan Carlin’s Hardcore HistorySave 10%"
+                }]
+            }]
+        }, {
+            "name": "Slate’s The Gist",
+            "label": 5157,
+            "parent_id": "Podcast",
+            "children": [{
+                "name": "No Promo",
+                "label": 2443,
+                "parent_id": "PodcastSlate’s The Gist",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 2443,
+                    "label": 2443,
+                    "parent_id": "PodcastSlate’s The GistNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 2714,
+                "parent_id": "PodcastSlate’s The Gist",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 2714,
+                    "label": 2714,
+                    "parent_id": "PodcastSlate’s The GistSave 20%"
+                }]
+            }]
+        }, {
+            "name": "The Beancast",
+            "label": 11020,
+            "parent_id": "Podcast",
+            "children": [{
+                "name": "No Promo",
+                "label": 4898,
+                "parent_id": "PodcastThe Beancast",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 4898,
+                    "label": 4898,
+                    "parent_id": "PodcastThe BeancastNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 6122,
+                "parent_id": "PodcastThe Beancast",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 6122,
+                    "label": 6122,
+                    "parent_id": "PodcastThe BeancastSave 20%"
+                }]
+            }]
+        }, {
+            "name": "The TED Radio Hour",
+            "label": 2444,
+            "parent_id": "Podcast",
+            "children": [{
+                "name": "No Promo",
+                "label": 1086,
+                "parent_id": "PodcastThe TED Radio Hour",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 1086,
+                    "label": 1086,
+                    "parent_id": "PodcastThe TED Radio HourNo Promo"
+                }]
+            }, {
+                "name": "Save 25%",
+                "label": 1358,
+                "parent_id": "PodcastThe TED Radio Hour",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 1358,
+                    "label": 1358,
+                    "parent_id": "PodcastThe TED Radio HourSave 25%"
+                }]
+            }]
+        }, {
+            "name": "The Tim Ferris Show",
+            "label": 6107,
+            "parent_id": "Podcast",
+            "children": [{
+                "name": "No Promo",
+                "label": 2714,
+                "parent_id": "PodcastThe Tim Ferris Show",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 2714,
+                    "label": 2714,
+                    "parent_id": "PodcastThe Tim Ferris ShowNo Promo"
+                }]
+            }, {
+                "name": "Save 25%",
+                "label": 3393,
+                "parent_id": "PodcastThe Tim Ferris Show",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 3393,
+                    "label": 3393,
+                    "parent_id": "PodcastThe Tim Ferris ShowSave 25%"
+                }]
+            }]
+        }]
+    }, {
+        "name": "Social",
+        "label": 39453,
+        "parent_id": "flare",
+        "children": [{
+            "name": "Facebook",
+            "label": 19001,
+            "parent_id": "Social",
+            "children": [{
+                "name": "No Promo",
+                "value": 8445,
+                "label": 8445,
+                "parent_id": "SocialFacebook"
+            }, {
+                "name": "Save 20%",
+                "value": 10556,
+                "label": 10556,
+                "parent_id": "SocialFacebook"
+            }]
+        }, {
+            "name": "Instagram",
+            "label": 8347,
+            "parent_id": "Social",
+            "children": [{
+                "name": "No Promo",
+                "value": 3710,
+                "label": 3710,
+                "parent_id": "SocialInstagram"
+            }, {
+                "name": "Save 25%",
+                "value": 4637,
+                "label": 4637,
+                "parent_id": "SocialInstagram"
+            }]
+        }, {
+            "name": "Twitter",
+            "label": 12105,
+            "parent_id": "Social",
+            "children": [{
+                "name": "No Promo",
+                "value": 5734,
+                "label": 5734,
+                "parent_id": "SocialTwitter"
+            }, {
+                "name": "Save 20%",
+                "value": 6371,
+                "label": 6371,
+                "parent_id": "SocialTwitter"
+            }]
+        }]
+    }, {
+        "name": "TV",
+        "label": 593817,
+        "parent_id": "flare",
+        "children": [{
+            "name": "ABC",
+            "label": 98133,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 46484,
+                "parent_id": "TVABC",
+                "children": [{
+                    "name": "Daytime",
+                    "value": 19612,
+                    "label": 19612,
+                    "parent_id": "TVABCNo Promo"
+                }, {
+                    "name": "Prime Time",
+                    "value": 26872,
+                    "label": 26872,
+                    "parent_id": "TVABCNo Promo"
+                }]
+            }, {
+                "name": "Save 10%",
+                "label": 51649,
+                "parent_id": "TVABC",
+                "children": [{
+                    "name": "Daytime",
+                    "value": 21791,
+                    "label": 21791,
+                    "parent_id": "TVABCSave 10%"
+                }, {
+                    "name": "Prime Time",
+                    "value": 29858,
+                    "label": 29858,
+                    "parent_id": "TVABCSave 10%"
+                }]
+            }]
+        }, {
+            "name": "BET",
+            "label": 9366,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 4163,
+                "parent_id": "TVBET",
+                "children": [{
+                    "name": "Daytime",
+                    "value": 2866,
+                    "label": 2866,
+                    "parent_id": "TVBETNo Promo"
+                }, {
+                    "name": "Prime Access",
+                    "value": 1297,
+                    "label": 1297,
+                    "parent_id": "TVBETNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 5203,
+                "parent_id": "TVBET",
+                "children": [{
+                    "name": "Daytime",
+                    "value": 3582,
+                    "label": 3582,
+                    "parent_id": "TVBETSave 20%"
+                }, {
+                    "name": "Prime Access",
+                    "value": 1621,
+                    "label": 1621,
+                    "parent_id": "TVBETSave 20%"
+                }]
+            }]
+        }, {
+            "name": "BRAVO",
+            "label": 60955,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 28873,
+                "parent_id": "TVBRAVO",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 17609,
+                    "label": 17609,
+                    "parent_id": "TVBRAVONo Promo"
+                }, {
+                    "name": "Prime Time",
+                    "value": 11264,
+                    "label": 11264,
+                    "parent_id": "TVBRAVONo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 32082,
+                "parent_id": "TVBRAVO",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 19566,
+                    "label": 19566,
+                    "parent_id": "TVBRAVOSave 20%"
+                }, {
+                    "name": "Prime Time",
+                    "value": 12516,
+                    "label": 12516,
+                    "parent_id": "TVBRAVOSave 20%"
+                }]
+            }]
+        }, {
+            "name": "CBS",
+            "label": 81875,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 38783,
+                "parent_id": "TVCBS",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 9433,
+                    "label": 9433,
+                    "parent_id": "TVCBSNo Promo"
+                }, {
+                    "name": "Prime Access",
+                    "value": 29350,
+                    "label": 29350,
+                    "parent_id": "TVCBSNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 43092,
+                "parent_id": "TVCBS",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 10481,
+                    "label": 10481,
+                    "parent_id": "TVCBSSave 20%"
+                }, {
+                    "name": "Prime Access",
+                    "value": 32611,
+                    "label": 32611,
+                    "parent_id": "TVCBSSave 20%"
+                }]
+            }]
+        }, {
+            "name": "CMT",
+            "label": 9229,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 4102,
+                "parent_id": "TVCMT",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 2081,
+                    "label": 2081,
+                    "parent_id": "TVCMTNo Promo"
+                }, {
+                    "name": "Prime Time",
+                    "value": 2021,
+                    "label": 2021,
+                    "parent_id": "TVCMTNo Promo"
+                }]
+            }, {
+                "name": "Save 25%",
+                "label": 5127,
+                "parent_id": "TVCMT",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 2601,
+                    "label": 2601,
+                    "parent_id": "TVCMTSave 25%"
+                }, {
+                    "name": "Prime Time",
+                    "value": 2526,
+                    "label": 2526,
+                    "parent_id": "TVCMTSave 25%"
+                }]
+            }]
+        }, {
+            "name": "Fox News",
+            "label": 75258,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 33448,
+                "parent_id": "TVFox News",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 25666,
+                    "label": 25666,
+                    "parent_id": "TVFox NewsNo Promo"
+                }, {
+                    "name": "Prime Access",
+                    "value": 7782,
+                    "label": 7782,
+                    "parent_id": "TVFox NewsNo Promo"
+                }]
+            }, {
+                "name": "Save 25%",
+                "label": 41810,
+                "parent_id": "TVFox News",
+                "children": [{
+                    "name": "Early Morning",
+                    "value": 32083,
+                    "label": 32083,
+                    "parent_id": "TVFox NewsSave 25%"
+                }, {
+                    "name": "Prime Access",
+                    "value": 9727,
+                    "label": 9727,
+                    "parent_id": "TVFox NewsSave 25%"
+                }]
+            }]
+        }, {
+            "name": "Hulu",
+            "label": 12011,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 5338,
+                "parent_id": "TVHulu",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 5338,
+                    "label": 5338,
+                    "parent_id": "TVHuluNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 6673,
+                "parent_id": "TVHulu",
+                "children": [{
+                    "name": "Prime Time",
+                    "value": 6673,
+                    "label": 6673,
+                    "parent_id": "TVHuluSave 20%"
+                }]
+            }]
+        }, {
+            "name": "NBC",
+            "label": 81432,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 36192,
+                "parent_id": "TVNBC",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 36192,
+                    "label": 36192,
+                    "parent_id": "TVNBCNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 45240,
+                "parent_id": "TVNBC",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 45240,
+                    "label": 45240,
+                    "parent_id": "TVNBCSave 20%"
+                }]
+            }]
+        }, {
+            "name": "OWN",
+            "label": 89915,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 39962,
+                "parent_id": "TVOWN",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 27958,
+                    "label": 27958,
+                    "parent_id": "TVOWNNo Promo"
+                }, {
+                    "name": "Early Morning",
+                    "value": 12004,
+                    "label": 12004,
+                    "parent_id": "TVOWNNo Promo"
+                }]
+            }, {
+                "name": "Save 25%",
+                "label": 49953,
+                "parent_id": "TVOWN",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 34948,
+                    "label": 34948,
+                    "parent_id": "TVOWNSave 25%"
+                }, {
+                    "name": "Early Morning",
+                    "value": 15005,
+                    "label": 15005,
+                    "parent_id": "TVOWNSave 25%"
+                }]
+            }]
+        }, {
+            "name": "REELZ",
+            "label": 17621,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 8347,
+                "parent_id": "TVREELZ",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 6583,
+                    "label": 6583,
+                    "parent_id": "TVREELZNo Promo"
+                }, {
+                    "name": "Early Morning",
+                    "value": 1764,
+                    "label": 1764,
+                    "parent_id": "TVREELZNo Promo"
+                }]
+            }, {
+                "name": "Save 10%",
+                "label": 9274,
+                "parent_id": "TVREELZ",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 7314,
+                    "label": 7314,
+                    "parent_id": "TVREELZSave 10%"
+                }, {
+                    "name": "Early Morning",
+                    "value": 1960,
+                    "label": 1960,
+                    "parent_id": "TVREELZSave 10%"
+                }]
+            }]
+        }, {
+            "name": "Sling",
+            "label": 10387,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 4920,
+                "parent_id": "TVSling",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 4920,
+                    "label": 4920,
+                    "parent_id": "TVSlingNo Promo"
+                }]
+            }, {
+                "name": "Save 20%",
+                "label": 5467,
+                "parent_id": "TVSling",
+                "children": [{
+                    "name": "Early Fringe",
+                    "value": 5467,
+                    "label": 5467,
+                    "parent_id": "TVSlingSave 20%"
+                }]
+            }]
+        }, {
+            "name": "USA",
+            "label": 47635,
+            "parent_id": "TV",
+            "children": [{
+                "name": "No Promo",
+                "label": 22564,
+                "parent_id": "TVUSA",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 7160,
+                    "label": 7160,
+                    "parent_id": "TVUSANo Promo"
+                }, {
+                    "name": "Prime Access",
+                    "value": 15404,
+                    "label": 15404,
+                    "parent_id": "TVUSANo Promo"
+                }]
+            }, {
+                "name": "Save 10%",
+                "label": 25071,
+                "parent_id": "TVUSA",
+                "children": [{
+                    "name": "Overnight",
+                    "value": 7955,
+                    "label": 7955,
+                    "parent_id": "TVUSASave 10%"
+                }, {
+                    "name": "Prime Access",
+                    "value": 17116,
+                    "label": 17116,
+                    "parent_id": "TVUSASave 10%"
+                }]
+            }]
+        }]
+    }]
+}

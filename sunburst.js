@@ -1,3 +1,4 @@
+ //you change the code by clicking edit here, then commit the code (below: "Commit directly to the master branch" ) & push it.
 function partition(data) {
     var root = d3.hierarchy(data)
         .sum(d => d.value)
@@ -11,7 +12,8 @@ d3.json("flare-3.json")
     .then((data) => {
         console.log(data);
         console.log(color)
-        var palette = ["#6B2FC6", "#ff339a", "#de3efd", "#5a9bd5", "#ff8cfa", "#1e64b2", "#e677e7", "#901478"]  //Here you can change the colors of the sunburst. BElow you can see the correspondent values. eg: #6B2FC6 = TV; #ff339a=Display...
+        var palette = ["#6B2FC6", "#ff339a", "#de3efd", "#5a9bd5", "#ff8cfa", "#1e64b2", "#e677e7", "#901478"]  
+        //Here you can change the colors of the sunburst. Below you can see the correspondent values. eg: #6B2FC6 = TV; #ff339a=Display...
         var domain = ["TV", "Display", "Paid Search", "Social", "Email", "OTT", "Online Radio", "Podcast"]
         var color = d3.scaleOrdinal(palette).domain(domain);
 

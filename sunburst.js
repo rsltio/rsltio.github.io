@@ -1,4 +1,4 @@
- //you change the code by clicking edit here, then commit the code (below: "Commit directly to the master branch" ) & push it.
+ //you change the code by clicking edit here, then commit the code (below: "Commit directly to the master branch" ) and it is ready!
 function partition(data) {
     var root = d3.hierarchy(data)
         .sum(d => d.value)

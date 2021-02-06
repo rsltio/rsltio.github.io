@@ -123,7 +123,8 @@ d3.json("flare-3.json")
             console.log(d)
             var op = (d3.select(this).attr("fill-opacity") == 0) ? 0 : 0.9
             d3.select(this).attr("fill-opacity", op)
-            legend.html("<p style='font-size:30px;text-align:center;'> " + d.data.name + " Conversions:</br> <span style='color: #3D4B57;'>" + d.data.label + "</span></p>");
+           if(op!=0){
+            legend.html("<p style='font-size:30px;text-align:center;'> " + d.data.name + " Conversions:</br> <span style='color: #3D4B57;'>" + d.data.label + "</span></p>");}
 
         }
 
